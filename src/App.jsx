@@ -7,10 +7,19 @@ export default function App() {
       <Background />
       <div className="mx-auto max-w-[1280px] px-6 sm:px-10">
         <header className="flex items-center justify-between border-b border-violet-100 py-8">
-          <strong className="text-mauve tracking-[.24em]">WILD / STORIES</strong>
+          <div className="flex items-center gap-3">
+            <img
+              src="./images/icon.jpg"
+              alt="icon"
+              className="h-24 w-24 rounded-full object-cover ring-2 ring-violet-200/80 transition-all duration-300 ease-out hover:scale-105 hover:ring-violet-400 hover:shadow-[0_0_12px_rgba(52,211,153,0.35)]"
+            />
+            <strong className="text-mauve tracking-[.24em]">WILD / STORIES</strong>
+          </div>
           <nav aria-label="Navegação principal" className="text-xs font-semibold tracking-widest text-slate-500">
             EXPLORAR · SOBRE
           </nav>
+
+
         </header>
         <main className="grid gap-16 py-20 lg:grid-cols-2 lg:items-center lg:gap-20">
           <section aria-label="Apresentação" className="space-y-7">
